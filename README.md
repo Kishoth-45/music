@@ -2,7 +2,7 @@
 
 Telegram voice chat robot
 
-![logo](https://telegra.ph/file/c362ebadbcc43f610cf28.mp4)
+![logo](https://telegra.ph/file/6620e152db70f6610ef1a.jpg)
 
 Telegram bot :-
 
