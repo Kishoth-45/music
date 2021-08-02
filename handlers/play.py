@@ -729,7 +729,7 @@ async def play(_, message: Message):
 
                               await lel.edit(
 
-                                  "<b>@musiqo_Assistant has joined the chat</b>",
+                                  "<b>@AnjalVc has joined the chat</b>",
 
                               )
 
@@ -743,9 +743,9 @@ async def play(_, message: Message):
 
                               await lel.edit(
 
-                                  f"<b>Flood wait timeout \nUser {user.first_name} flooding request userbot cant join group, check @Noravc_assistant banned here or contact support"
+                                  f"<b>Flood wait timeout \nUser {user.first_name} flooding request userbot cant join group, check @AnjalVc banned here or contact support"
 
-                                  "<b>add @musiqo_Assistant and try again</b>",
+                                  "<b>add @AnjalVc and try again</b>",
 
                               )
 
@@ -761,7 +761,7 @@ async def play(_, message: Message):
 
         await lel.edit(
 
-            f"<i>@musiqo_Assistant is not in the chat, ask admin to send /play command for add assistant manually.</i>"
+            f"<i>@AnjalVc is not in the chat, ask admin to send /play command for add assistant manually.</i>"
 
         )
 
@@ -771,7 +771,7 @@ async def play(_, message: Message):
 
     sender_name = message.from_user.first_name
 
-    await lel.edit("downloading...")
+    await lel.edit("💫downloading💫")
 
     sender_id = message.from_user.id
 
@@ -834,15 +834,16 @@ async def play(_, message: Message):
 
                                
 
-                    InlineKeyboardButton('Playlist', callback_data='playlist'),
-                    InlineKeyboardButton('Settings', callback_data='menu')
+                    InlineKeyboardButton('🗂Playlist', callback_data='playlist'),
+                    InlineKeyboardButton('⚙️Settings', callback_data='menu')
                 ],
                 [       
 
                     InlineKeyboardButton(
-                       text="Close menu",
+                       text="❌Close menu",
                         callback_data='cls')
-                ]                             
+                ],
+                [InlineKeyboardButton(text="🍂ANJAL SUPPORT🍃", url=f"https://t.me/Godofanjalsupport")] 
             ]
         )
 
@@ -921,6 +922,3 @@ async def play(_, message: Message):
         return await lel.delete()
 
 #end
-
-#Respect for kanging 🌝🌚
-#Belli belli
