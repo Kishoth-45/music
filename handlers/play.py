@@ -677,7 +677,7 @@ async def play(_, message: Message):
 
     global que
 
-    lel = await message.reply("Finding..")
+    lel = await message.reply("🎵Finding🎵")
 
     administrators = await get_administrators(message.chat)
 
@@ -689,7 +689,7 @@ async def play(_, message: Message):
 
     except:
 
-        user.first_name =  "musiqo_Assistant"
+        user.first_name =  "AnjalVc"
 
     usar = user
 
@@ -771,7 +771,7 @@ async def play(_, message: Message):
 
     sender_name = message.from_user.first_name
 
-    await lel.edit("💫downloading💫")
+    await lel.edit("🎈downloading🎈")
 
     sender_id = message.from_user.id
 
@@ -791,7 +791,7 @@ async def play(_, message: Message):
 
     print(query)
 
-    await lel.edit("streaming..")
+    await lel.edit("🎧streaming🎧")
 
     ydl_opts = {"format": "bestaudio[ext=m4a]"}
 
